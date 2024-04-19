@@ -1027,6 +1027,12 @@ public class RNZoomUsModule extends ReactContextBaseJavaModule implements ZoomSD
   }
 
   @Override
+  public void onAICompanionActiveChangeNotice(boolean b) {}
+  @Override
+  public void onParticipantProfilePictureStatusChange(boolean b) {}
+  @Override
+  public void onCloudRecordingStorageFull(long l) {}
+  @Override
   public void onInMeetingUserAvatarPathUpdated(long userId) {}
   @Override
   public void onSuspendParticipantsActivities() {}
